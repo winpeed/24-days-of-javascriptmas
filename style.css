@@ -15,41 +15,22 @@
 
 .envelope h1 {
   color: #146b3a;
-  padding: 0.5em;
+  padding: 0.2em 0.8em;
   font-size: 1.6rem;
+  line-height: 1.5;
 }
 
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0em 0.6em;
+ul {
+  padding: 1em;
 }
 
-.wrapper div {
-  margin: 1em 0.6em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 5px;
-  line-height: 1.6;
-  height: 90px;
-  width: 90px;
+ul li {
+  list-style: none;
+  padding: 0.4em 0em;
 }
 
-.wrapper div:nth-child(even) {
-  background: #146b3a;
-  color: white;
-}
-
-.wrapper div:nth-child(odd) {
-  background: #d42d2f;
-  color: white;
-}
-
-@media (min-width: 700px) {
-  .wrapper div {
-    height: 120px;
-    width: 120px;
-  }
+ul li a {
+  text-decoration: none;
+  font-size: 1.35rem;
+  color: #3f3fcd;
 }
