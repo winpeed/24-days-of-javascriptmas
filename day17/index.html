@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>🎅 Naughty List, Nice List 🎁</title>
+  </head>
+  <body>
+    <h1>🎅 Naughty List, Nice List 🎁</h1>
+    <form id="item-form">
+      <input
+        type="text"
+        name="name"
+        placeholder="Add new Item"
+        id="name"
+        required
+      />
+      <div>
+        <input type="checkbox" name="hasBeenGood" id="hasBeenGood" />
+        <label for="hasBeenGood">Check to add to Nice List</label>
+      </div>
+      <button type="submit">Enter</button>
+    </form>
+    <div class="container">
+      <div>
+        <h2>Nice List</h2>
+        <ul class="list nice-list" id="nice-list"></ul>
+      </div>
+      <div>
+        <h2>Naughty List</h2>
+        <ul class="list naughty-list" id="naughty-list"></ul>
+      </div>
+    </div>
+    <button id="btn" type="button">Sort</button>
+    <button id="btn-add" type="button">Add New Items</button>
+    <script src="script.js"></script>
+  </body>
+</html>
