@@ -23,6 +23,7 @@ body {
   text-align: center;
   color: var(--dark-green);
   background-color: var(--snow);
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
